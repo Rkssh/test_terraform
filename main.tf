@@ -3,6 +3,8 @@ resource "azurerm_resource_group" "resource1" {
   location = "West Europe"
 }
 
+# my name is Dipu singh
+
 resource "azurerm_virtual_network" "azvnet" {
   name                = "myvnet"
   address_space       = ["10.0.0.0/16"]
